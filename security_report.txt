@@ -1,0 +1,52 @@
+SECURITY LOG INVESTIGATION REPORT
+=================================
+
+FIREWALL FILE CHECK
+-------------------
+Total lines: 900
+Valid lines: 895
+Malformed lines: 5
+
+FIREWALL ACTION ANALYSIS
+------------------------
+Allowed events: 523
+Blocked events: 372
+Unique source IPs: 204
+
+TOP BLOCKED IP ADDRESSES
+------------------------
+203.0.113.55 : 78 blocked attempts
+203.0.113.77 : 23 blocked attempts
+198.51.100.77 : 22 blocked attempts
+203.0.113.90 : 20 blocked attempts
+192.168.1.34 : 5 blocked attempts
+
+TARGETED PORTS
+--------------
+Port 443 : 104 events
+Port 8080 : 100 events
+Port 80 : 94 events
+Port 993 : 90 events
+Port 123 : 87 events
+
+AUTHENTICATION ANALYSIS
+-----------------------
+Successful logins: 314
+Failed logins: 165
+Account locked events: 5
+
+TOP FAILED LOGIN SOURCE IPS
+----------------------------
+198.51.100.23 : 46 failed attempts
+203.0.113.55 : 20 failed attempts
+203.0.113.77 : 17 failed attempts
+192.168.1.20 : 4 failed attempts
+192.168.1.30 : 3 failed attempts
+
+TOP FAILED LOGIN USERNAMES
+--------------------------
+admin : 53 failed attempts
+svc_backup : 28 failed attempts
+root : 15 failed attempts
+bob : 14 failed attempts
+carol : 14 failed attempts

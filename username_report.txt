@@ -1,0 +1,12 @@
+FAILED LOGIN USERNAME REPORT
+-----------------------------
+
+admin : 53 failed attempts
+svc_backup : 28 failed attempts
+root : 15 failed attempts
+bob : 14 failed attempts
+carol : 14 failed attempts
+david : 12 failed attempts
+alice : 12 failed attempts
+administrator : 9 failed attempts
+student : 7 failed attempts

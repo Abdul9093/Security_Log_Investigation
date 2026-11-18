@@ -1,0 +1,30 @@
+Section,Item,Count
+Firewall,Total Lines,900
+Firewall,Valid Lines,895
+Firewall,Malformed Lines,5
+Firewall,Allowed Events,523
+Firewall,Blocked Events,372
+Firewall,Unique Source IPs,204
+Top Blocked IPs,203.0.113.55,78
+Top Blocked IPs,203.0.113.77,23
+Top Blocked IPs,198.51.100.77,22
+Top Blocked IPs,203.0.113.90,20
+Top Blocked IPs,192.168.1.34,5
+Targeted Ports,443,104
+Targeted Ports,8080,100
+Targeted Ports,80,94
+Targeted Ports,993,90
+Targeted Ports,123,87
+Authentication,Successful Logins,314
+Authentication,Failed Logins,165
+Authentication,Account Locked,5
+Failed Login IPs,198.51.100.23,46
+Failed Login IPs,203.0.113.55,20
+Failed Login IPs,203.0.113.77,17
+Failed Login IPs,192.168.1.20,4
+Failed Login IPs,192.168.1.30,3
+Failed Login Usernames,admin,53
+Failed Login Usernames,svc_backup,28
+Failed Login Usernames,root,15
+Failed Login Usernames,bob,14
+Failed Login Usernames,carol,14
